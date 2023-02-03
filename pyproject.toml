@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "deep-learning-intent-json-main"
+version = "0.1.0"
+description = "AI Chatbot bidirectional transforer model. Inputs chat data from JSON file(s), and chats question repsonse"
+authors = ["Improved and modernized by: Matthew Wright, CPA, ACA <pythonfin@proton.me> - Initial utilization allowed under the MIT license."]
+readme = "README.md"
+packages = [{include = "deep_learning_intent_json_main"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+numpy = "^1.24.1"
+matplotlib = "^3.6.3"
+tensorflow = "^2.11.0"
+tensorflow-datasets = "^4.8.2"
+keras = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

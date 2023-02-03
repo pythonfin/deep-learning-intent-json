@@ -1,0 +1,5 @@
+# git ignore file
+# https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+poetry.lock
+cumul_err.png
+/modelweights/testA_weights.h5
