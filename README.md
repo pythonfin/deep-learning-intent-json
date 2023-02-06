@@ -28,15 +28,15 @@ Open your project
 create a poetry environment in PyCharm
 
 then in your terminal console in Pycharm:
-python -m poetry lock --no-update
-python -m poetry install
+$ python -m poetry lock --no-update
+$ python -m poetry install
 
 key packages:
-poetry add numpy
-poetry add matplotlib
-poetry add tensorflow
-poetry add tensorflow_datasets
+$ poetry add numpy
+$ poetry add matplotlib
+$ poetry add tensorflow
+$ poetry add tensorflow_datasets
 
 check tensorflow was added correctly by:
-python -m pip show tensorflow
+$ python -m pip show tensorflow
 
